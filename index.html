@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casablanca Acapulco | Bodas & Eventos</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header & Navegación -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Casablanca<span>.</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#galeria">Galería</a>
+                <a href="#cotizacion" class="btn-nav">Cotizar</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bodas frente al mar en Acapulco</h1>
+            <p>El arte de celebrar en un espacio privado diseñado para momentos inolvidables</p>
+            <a href="#cotizacion" class="btn-primary">Agenda una visita</a>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-text">
+                <h2>Diseño • Gastronomía • El arte de celebrar</h2>
+                <p>En Casablanca Acapulco | Bodas & Eventos, creamos experiencias a medida. Somos un espacio privado
+                    exclusivo para bodas y celebraciones, donde cada detalle arquitectónico y natural se fusiona para
+                    dar vida a la boda de tus sueños frente al mar.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-water"></i>
+                        <span>Frente al Mar</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-utensils"></i>
+                        <span>Alta Gastronomía</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-gem"></i>
+                        <span>Espacios Privados</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Pareja de boda frente al mar">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="text-center">Instantes Inolvidables</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Detalles de boda">
+                <img src="https://images.unsplash.com/photo-1544592432-84157790b106?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Decoración de mesas">
+                <img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Espacio privado para bodas">
+                <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Ceremonia en Acapulco">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto y Cotización -->
+    <section id="cotizacion" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Comienza a planear tu historia</h2>
+                    <p>Déjanos tus datos y un especialista en bodas se pondrá en contacto contigo para agendar un
+                        scouting o enviarte una cotización personalizada.</p>
+                    <ul>
+                        <li><i class="fab fa-instagram"></i> @casablanca.acapulco</li>
+                        <li><i class="fas fa-envelope"></i> eventos@casablancaacapulco.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Acapulco, Guerrero, México</li>
+                    </ul>
+                </div>
+                <form class="contact-form" id="form-cotizacion">
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <input type="tel" placeholder="Teléfono" required>
+                    <input type="date" placeholder="Fecha estimada del evento">
+                    <input type="number" placeholder="Número estimado de invitados" required>
+                    <textarea placeholder="Cuéntanos más sobre la boda de tus sueños..." rows="4"></textarea>
+                    <button type="submit" class="btn-primary btn-block">Solicitar Cotización</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h3>Casablanca Acapulco</h3>
+                <p>Bodas & Eventos</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Casablanca Acapulco. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
